@@ -9,12 +9,24 @@ import AuditCompliance from './pages/AuditCompliance';
 import AboutCareer from './pages/AboutCareer';
 import Contact from './pages/Contact';
 
-// ScrollToTop component to handle window scrolling on route changes
+// Enhanced ScrollToTop component to handle window scrolling more robustly
 const ScrollToTop: React.FC = () => {
   const { pathname } = useLocation();
 
   useEffect(() => {
-    window.scrollTo(0, 0);
+    // Force scroll to top immediately on route change
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: 'instant' // Use 'instant' to avoid smooth scroll lag when navigating
+    });
+    
+    // Fallback for some browsers or cases where DOM hasn't fully updated
+    const timeoutId = setTimeout(() => {
+      window.scrollTo(0, 0);
+    }, 10);
+    
+    return () => clearTimeout(timeoutId);
   }, [pathname]);
 
   return null;
