@@ -8,7 +8,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   return (
     <div className="flex flex-col min-h-screen bg-white selection:bg-[#C5A059]/30 selection:text-[#1A365D]">
       <Navbar />
-      <main className="flex-grow pt-16">
+      <main className="flex-grow pt-20">
         {children}
       </main>
       <Footer />

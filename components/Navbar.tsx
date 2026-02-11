@@ -36,12 +36,12 @@ const Navbar: React.FC = () => {
   ];
 
   return (
-    <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-white shadow-md py-2' : 'bg-transparent py-4'}`}>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-white shadow-md py-3' : 'bg-transparent py-5'}`}>
+      <div className="max-w-77xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <Link to="/" className="flex flex-col">
-            <span className={`text-xl font-bold font-serif-kr ${scrolled ? 'text-[#1A365D]' : 'text-white md:text-[#1A365D]'}`}>박흠석</span>
-            <span className={`text-[10px] uppercase tracking-widest ${scrolled ? 'text-[#C5A059]' : 'text-white/80 md:text-[#C5A059]'}`}>Strategic Solution Partner</span>
+          <Link to="/" className="flex flex-col gap-1 group">
+            <span className={`text-2xl font-bold font-serif-kr transition-colors ${scrolled ? 'text-[#1A365D]' : 'text-white md:text-[#1A365D]'}`}>박흠석</span>
+            <span className={`text-[9px] uppercase tracking-[0.15em] font-medium transition-colors ${scrolled ? 'text-[#C5A059]' : 'text-white/80 md:text-[#C5A059]'}`}>Strategic Solution Partner</span>
           </Link>
 
           {/* Desktop Nav */}
@@ -80,7 +80,7 @@ const Navbar: React.FC = () => {
             ))}
             <Link
               to="/contact"
-              className="bg-[#1A365D] text-white px-5 py-2 rounded-md font-medium hover:bg-[#2a4a7d] transition-colors"
+              className="bg-[#1A365D] text-white px-6 py-2.5 rounded-md font-medium hover:bg-[#2a4a7d] transition-all hover:shadow-lg active:scale-95"
             >
               상담 신청하기
             </Link>
@@ -90,7 +90,7 @@ const Navbar: React.FC = () => {
           <div className="md:hidden flex items-center">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className={`${scrolled ? 'text-[#1A365D]' : 'text-white md:text-[#1A365D]'}`}
+              className={`${scrolled ? 'text-[#1A365D]' : 'text-white md:text-[#1A365D]'} p-2`}
             >
               {isOpen ? <X size={28} /> : <Menu size={28} />}
             </button>
