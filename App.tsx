@@ -1,6 +1,6 @@
 
-import React from 'react';
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { HashRouter, Routes, Route, useLocation } from 'react-router-dom';
 import Layout from './components/Layout';
 import Home from './pages/Home';
 import DealStrategy from './pages/DealStrategy';
@@ -9,9 +9,21 @@ import AuditCompliance from './pages/AuditCompliance';
 import AboutCareer from './pages/AboutCareer';
 import Contact from './pages/Contact';
 
+// ScrollToTop component to handle window scrolling on route changes
+const ScrollToTop: React.FC = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+};
+
 const App: React.FC = () => {
   return (
     <HashRouter>
+      <ScrollToTop />
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
