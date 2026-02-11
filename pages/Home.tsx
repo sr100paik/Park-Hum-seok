@@ -1,5 +1,5 @@
 
-import React from 'react';
+import React, { border } from 'react';
 import { Link } from 'react-router-dom';
 import { TrendingUp, Layers, ShieldCheck, ArrowRight, CheckCircle } from 'lucide-react';
 
@@ -189,7 +189,8 @@ const Home: React.FC = () => {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center bg-[#F1F5F9] py-16 rounded-3xl border border-gray-100 shadow-sm">
           <h2 className="text-3xl font-bold font-serif-kr text-[#1A365D] mb-6">귀사의 지속 가능한 성장을 함께 설계하겠습니다.</h2>
           <p className="text-gray-600 mb-10 max-w-2xl mx-auto text-lg leading-relaxed">
-            비즈니스의 복잡한 문제를 해결하고 새로운 기회를 창출하고 싶으시다면, 지금 바로 상담을 신청하십시오.
+            비즈니스의 복잡한 문제를 해결하고 새로운 기회를 창출하고 싶으시다면,<br /> 
+            지금 바로 상담을 신청하십시오.
           </p>
           <Link 
             to="/contact" 
