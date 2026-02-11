@@ -1,0 +1,7 @@
+{
+  "name": "Park Hum-seok Portfolio",
+  "description": "Professional business solution partner website for CPA Park Hum-seok, focusing on Deal Strategy, Management Restructuring, and Audit Compliance.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
