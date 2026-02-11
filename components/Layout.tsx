@@ -2,7 +2,6 @@
 import React from 'react';
 import Navbar from './Navbar';
 import Footer from './Footer';
-import AIConsultant from './AIConsultant';
 
 const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   return (
@@ -12,7 +11,6 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
         {children}
       </main>
       <Footer />
-      <AIConsultant />
     </div>
   );
 };

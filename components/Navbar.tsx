@@ -37,7 +37,7 @@ const Navbar: React.FC = () => {
 
   return (
     <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-white shadow-md py-3' : 'bg-transparent py-5'}`}>
-      <div className="max-w-77xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="flex flex-col gap-1 group">
             <span className={`text-2xl font-bold font-serif-kr transition-colors ${scrolled ? 'text-[#1A365D]' : 'text-white md:text-[#1A365D]'}`}>박흠석</span>
@@ -78,6 +78,7 @@ const Navbar: React.FC = () => {
                 )}
               </div>
             ))}
+
             <Link
               to="/contact"
               className="bg-[#1A365D] text-white px-6 py-2.5 rounded-md font-medium hover:bg-[#2a4a7d] transition-all hover:shadow-lg active:scale-95"
@@ -100,7 +101,7 @@ const Navbar: React.FC = () => {
 
       {/* Mobile Nav Overlay */}
       {isOpen && (
-        <div className="md:hidden absolute top-0 left-0 w-full h-screen bg-white shadow-2xl z-40 animate-in slide-in-from-top duration-300">
+        <div className="md:hidden absolute top-0 left-0 w-full h-screen bg-white shadow-2xl z-40 animate-in slide-in-from-top duration-300 overflow-y-auto">
           <div className="px-4 pt-24 pb-10 space-y-6">
             {navLinks.map((link) => (
               <div key={link.name}>
@@ -127,6 +128,7 @@ const Navbar: React.FC = () => {
                 )}
               </div>
             ))}
+
             <Link
               to="/contact"
               className="block w-full bg-[#1A365D] text-white text-center py-4 rounded-md font-bold mt-10"
