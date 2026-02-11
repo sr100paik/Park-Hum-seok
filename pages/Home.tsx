@@ -21,7 +21,8 @@ const Home: React.FC = () => {
           <div className="max-w-3xl animate-in fade-in slide-in-from-left-8 duration-1000">
             <h1 className="text-4xl md:text-6xl font-bold font-serif-kr text-white leading-tight mb-6">
               기업의 <span className="text-[#C5A059]">생로병사(生老病死)</span>,<br />
-              40년의 통찰로 해답을 제시합니다.
+              40년의 통찰로<br />
+              해답을 제시합니다.
             </h1>
             <p className="text-xl text-gray-200 mb-10 leading-relaxed font-light">
               삼일회계법인 파트너 출신 박흠석 회계사가 제안하는 <br className="hidden md:block" /> 
