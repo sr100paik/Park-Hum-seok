@@ -10,7 +10,7 @@ const Home: React.FC = () => {
       <section className="relative h-[90vh] flex items-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=2070" 
+            src="https://res.cloudinary.com/dj1xp2ojh/image/upload/v1766722185/%EB%A9%94%EC%9D%B8%EB%B0%B0%EA%B2%BD_3_df7tkr.png" 
             alt="Skyscrapers" 
             className="w-full h-full object-cover grayscale brightness-50"
           />
