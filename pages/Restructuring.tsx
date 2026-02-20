@@ -7,7 +7,15 @@ const Restructuring: React.FC = () => {
   return (
     <div className="bg-white">
       {/* Page Header */}
-      <section className="bg-[#1A365D] text-white py-24 relative">
+      <section className="bg-[#1A365D] text-white py-24 relative overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <img 
+            src="https://res.cloudinary.com/dj1xp2ojh/image/upload/v1766722183/%ED%8E%9C%EA%B3%BC_%ED%83%AD_y1wyug.jpg" 
+            alt="Background" 
+            className="w-full h-full object-cover opacity-80 blur-[2px]"
+          />
+          <div className="absolute inset-0 bg-[#1A365D]/60"></div>
+        </div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <Link to="/" className="inline-flex items-center text-[#C5A059] mb-8 hover:underline">
             <ArrowLeft size={16} className="mr-2" /> Home
@@ -62,9 +70,12 @@ const Restructuring: React.FC = () => {
               <h4 className="text-2xl font-bold font-serif-kr text-[#1A365D] mb-4">무료 경영 진단 서비스</h4>
               <p className="text-gray-600">귀사의 현재 경영 관리 체계를 진단하고 개선 포인트를 도출해 드립니다. 지금 바로 신청하십시오.</p>
             </div>
-            <button className="bg-[#1A365D] text-white px-10 py-4 rounded-full font-bold hover:bg-[#2a4a7d] transition-colors">
+            <Link 
+              to="/contact" 
+              className="bg-[#1A365D] text-white px-10 py-4 rounded-full font-bold hover:bg-[#2a4a7d] transition-colors inline-block text-center"
+            >
               경영 진단 신청하기
-            </button>
+            </Link>
           </div>
         </div>
       </section>

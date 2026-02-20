@@ -8,9 +8,13 @@ const DealStrategy: React.FC = () => {
     <div className="bg-white">
       {/* Page Header */}
       <section className="bg-[#1A365D] text-white py-24 relative overflow-hidden">
-        <div className="absolute inset-0 opacity-10">
-            <div className="absolute top-10 right-10 w-64 h-64 border-4 border-white rounded-full"></div>
-            <div className="absolute bottom-10 left-10 w-96 h-96 border border-white rounded-full"></div>
+        <div className="absolute inset-0 z-0">
+          <img 
+            src="https://res.cloudinary.com/dj1xp2ojh/image/upload/v1766722184/%EC%84%B1%EC%9E%A5_%EA%B7%B8%EB%9E%98%ED%94%84_qvsm7p.jpg" 
+            alt="Background" 
+            className="w-full h-full object-cover opacity-80 blur-[2px]"
+          />
+          <div className="absolute inset-0 bg-[#1A365D]/60"></div>
         </div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <Link to="/" className="inline-flex items-center text-[#C5A059] mb-8 hover:underline">
@@ -80,19 +84,17 @@ const DealStrategy: React.FC = () => {
 
             {/* Sidebar Contact */}
             <div className="lg:col-span-1">
-              <div className="sticky top-24 bg-[#F1F5F9] p-10 rounded-2xl">
+              <div className="sticky top-24 bg-[#F1F5F9] p-10 rounded-2xl text-center">
                 <h3 className="text-xl font-bold text-[#1A365D] mb-6">자문 사례 및 견적 문의</h3>
-                <p className="text-gray-600 mb-8">
+                <p className="text-gray-600 mb-10 leading-relaxed">
                   귀사의 구체적인 상황에 맞는 전문 자문 사례를 확인하고 싶으시다면 연락 주십시오.
                 </p>
-                <form className="space-y-4">
-                  <input type="text" placeholder="성함" className="w-full px-4 py-3 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#1A365D]" />
-                  <input type="email" placeholder="이메일" className="w-full px-4 py-3 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#1A365D]" />
-                  <textarea placeholder="문의 내용" rows={4} className="w-full px-4 py-3 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#1A365D]"></textarea>
-                  <button className="w-full bg-[#1A365D] text-white py-4 rounded font-bold hover:bg-[#2a4a7d] transition-colors">
-                    상담 신청하기
-                  </button>
-                </form>
+                <Link 
+                  to="/contact" 
+                  className="inline-block w-full bg-[#1A365D] text-white py-4 rounded-lg font-bold hover:bg-[#2a4a7d] transition-all shadow-lg shadow-[#1A365D]/10"
+                >
+                  상담 신청하기
+                </Link>
               </div>
             </div>
           </div>

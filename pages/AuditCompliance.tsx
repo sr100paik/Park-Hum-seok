@@ -7,7 +7,15 @@ const AuditCompliance: React.FC = () => {
   return (
     <div className="bg-white">
       {/* Page Header */}
-      <section className="bg-[#1A365D] text-white py-24">
+      <section className="bg-[#1A365D] text-white py-24 relative overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <img 
+            src="https://res.cloudinary.com/dj1xp2ojh/image/upload/v1771559575/Image_fx_1_kyrnqt.jpg" 
+            alt="Background" 
+            className="w-full h-full object-cover opacity-80 blur-[2px]"
+          />
+          <div className="absolute inset-0 bg-[#1A365D]/60"></div>
+        </div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <Link to="/" className="inline-flex items-center text-[#C5A059] mb-8 hover:underline">
             <ArrowLeft size={16} className="mr-2" /> Home
@@ -78,9 +86,12 @@ const AuditCompliance: React.FC = () => {
               신한카드 등 주요 기업의 성과 개선 및 원가 절감 자문 경험을 바탕으로, 
               불필요한 지출을 줄이고 자원 배분의 효율성을 높이는 전략을 제시합니다.
             </p>
-            <button className="bg-[#C5A059] text-[#1A365D] px-10 py-4 rounded-full font-bold hover:bg-[#b08d4b] transition-colors relative z-10">
+            <Link 
+              to="/contact" 
+              className="bg-[#C5A059] text-[#1A365D] px-10 py-4 rounded-full font-bold hover:bg-[#b08d4b] transition-colors relative z-10 inline-block text-center"
+            >
               내부 통제 진단 요청하기
-            </button>
+            </Link>
           </div>
         </div>
       </section>

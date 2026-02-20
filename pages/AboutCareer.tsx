@@ -32,7 +32,7 @@ const AboutCareer: React.FC = () => {
           <div className="flex-shrink-0 relative">
             <div className="w-64 h-80 bg-gray-200 rounded-lg overflow-hidden border-4 border-[#C5A059] shadow-2xl grayscale hover:grayscale-0 transition-all duration-500">
                <img 
-                 src="https://picsum.photos/400/600?grayscale" 
+                 src="https://res.cloudinary.com/dj1xp2ojh/image/upload/v1771558724/ChatGPT_Image_2026%EB%85%84_2%EC%9B%94_9%EC%9D%BC_%EC%98%A4%ED%9B%84_04_27_24_g9psoe.png" 
                  alt="Park Hum-seok" 
                  className="w-full h-full object-cover"
                />

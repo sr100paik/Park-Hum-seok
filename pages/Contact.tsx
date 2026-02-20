@@ -37,8 +37,16 @@ const Contact: React.FC = () => {
   return (
     <div className="bg-white">
       {/* Header */}
-      <section className="bg-[#1A365D] text-white py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <section className="bg-[#1A365D] text-white py-20 relative overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <img 
+            src="https://res.cloudinary.com/dj1xp2ojh/image/upload/v1771559770/Image_fx_2_lumjf4.jpg" 
+            alt="Background" 
+            className="w-full h-full object-cover opacity-80 blur-[2px]"
+          />
+          <div className="absolute inset-0 bg-[#1A365D]/60"></div>
+        </div>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
           <h1 className="text-4xl md:text-5xl font-bold font-serif-kr mb-4">상담 및 자문 신청</h1>
           <p className="text-xl text-gray-300 font-light">기업의 도약과 성장을 위한 최고의 파트너가 되어드리겠습니다.</p>
         </div>
@@ -144,16 +152,6 @@ const Contact: React.FC = () => {
         </div>
       </section>
 
-      {/* Map Placeholder */}
-      <section className="h-96 bg-gray-100 grayscale opacity-80 relative">
-        <div className="absolute inset-0 flex items-center justify-center">
-            <div className="text-center">
-                <MapPin className="mx-auto mb-2 text-[#1A365D]" size={32} />
-                <p className="font-bold text-[#1A365D]">서울 강남구 테헤란로</p>
-                <p className="text-sm text-gray-500">Map is being loaded...</p>
-            </div>
-        </div>
-      </section>
     </div>
   );
 };

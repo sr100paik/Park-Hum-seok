@@ -103,53 +103,88 @@ const Home: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Feature 1 */}
-            <div className="bg-white p-10 rounded-xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 group">
-              <div className="w-16 h-16 bg-[#F1F5F9] rounded-lg flex items-center justify-center text-[#1A365D] mb-8 group-hover:bg-[#1A365D] group-hover:text-white transition-colors">
-                <TrendingUp size={32} />
+            <div className="bg-white rounded-xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 group overflow-hidden flex flex-col">
+              <div className="h-48 overflow-hidden">
+                <img 
+                  src="https://res.cloudinary.com/dj1xp2ojh/image/upload/v1766722184/%EC%84%B1%EC%9E%A5_%EA%B7%B8%EB%9E%98%ED%94%84_qvsm7p.jpg" 
+                  alt="Strategy & Deal" 
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
               </div>
-              <h3 className="text-2xl font-bold font-serif-kr text-[#1A365D] mb-4">전략 및 Deal 자문</h3>
-              <p className="text-gray-600 mb-8 leading-relaxed">
-                신사업 추진 전략 및 투자 유치(PF), 매수/매각 실사 등 성공적인 거래를 위한 정밀한 통찰을 제공합니다.
-              </p>
-              <Link to="/services/deal-strategy" className="text-[#C5A059] font-bold flex items-center group-hover:underline">
-                자세히 보기 <ArrowRight size={16} className="ml-2" />
-              </Link>
+              <div className="p-8 flex-1 flex flex-col">
+                <div className="w-12 h-12 bg-[#F1F5F9] rounded-lg flex items-center justify-center text-[#1A365D] mb-6 group-hover:bg-[#1A365D] group-hover:text-white transition-colors">
+                  <TrendingUp size={24} />
+                </div>
+                <h3 className="text-2xl font-bold font-serif-kr text-[#1A365D] mb-4">전략 및 Deal 자문</h3>
+                <p className="text-gray-600 mb-8 leading-relaxed flex-1">
+                  신사업 추진 전략 및 투자 유치(PF), 매수/매각 실사 등 성공적인 거래를 위한 정밀한 통찰을 제공합니다.
+                </p>
+                <Link to="/services/deal-strategy" className="text-[#C5A059] font-bold flex items-center group-hover:underline">
+                  자세히 보기 <ArrowRight size={16} className="ml-2" />
+                </Link>
+              </div>
             </div>
 
             {/* Feature 2 */}
-            <div className="bg-white p-10 rounded-xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 group">
-              <div className="w-16 h-16 bg-[#F1F5F9] rounded-lg flex items-center justify-center text-[#1A365D] mb-8 group-hover:bg-[#1A365D] group-hover:text-white transition-colors">
-                <Layers size={32} />
+            <div className="bg-white rounded-xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 group overflow-hidden flex flex-col">
+              <div className="h-48 overflow-hidden">
+                <img 
+                  src="https://res.cloudinary.com/dj1xp2ojh/image/upload/v1766722183/%ED%8E%9C%EA%B3%BC_%ED%83%AD_y1wyug.jpg" 
+                  alt="Restructuring & Diagnosis" 
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
               </div>
-              <h3 className="text-2xl font-bold font-serif-kr text-[#1A365D] mb-4">구조 개편 및 진단</h3>
-              <p className="text-gray-600 mb-8 leading-relaxed">
-                지배구조 개선, 성과 관리 및 경영 효율화 컨설팅을 통해 기업의 기초 체력을 강화하고 효율을 극대화합니다.
-              </p>
-              <Link to="/services/performance-restructuring" className="text-[#C5A059] font-bold flex items-center group-hover:underline">
-                자세히 보기 <ArrowRight size={16} className="ml-2" />
-              </Link>
+              <div className="p-8 flex-1 flex flex-col">
+                <div className="w-12 h-12 bg-[#F1F5F9] rounded-lg flex items-center justify-center text-[#1A365D] mb-6 group-hover:bg-[#1A365D] group-hover:text-white transition-colors">
+                  <Layers size={24} />
+                </div>
+                <h3 className="text-2xl font-bold font-serif-kr text-[#1A365D] mb-4">구조 개편 및 진단</h3>
+                <p className="text-gray-600 mb-8 leading-relaxed flex-1">
+                  지배구조 개선, 성과 관리 및 경영 효율화 컨설팅을 통해 기업의 기초 체력을 강화하고 효율을 극대화합니다.
+                </p>
+                <Link to="/services/performance-restructuring" className="text-[#C5A059] font-bold flex items-center group-hover:underline">
+                  자세히 보기 <ArrowRight size={16} className="ml-2" />
+                </Link>
+              </div>
             </div>
 
             {/* Feature 3 */}
-            <div className="bg-white p-10 rounded-xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 group">
-              <div className="w-16 h-16 bg-[#F1F5F9] rounded-lg flex items-center justify-center text-[#1A365D] mb-8 group-hover:bg-[#1A365D] group-hover:text-white transition-colors">
-                <ShieldCheck size={32} />
+            <div className="bg-white rounded-xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 group overflow-hidden flex flex-col">
+              <div className="h-48 overflow-hidden">
+                <img 
+                  src="https://res.cloudinary.com/dj1xp2ojh/image/upload/v1771559575/Image_fx_1_kyrnqt.jpg" 
+                  alt="Transparency & Control" 
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
               </div>
-              <h3 className="text-2xl font-bold font-serif-kr text-[#1A365D] mb-4">투명성 및 통제</h3>
-              <p className="text-gray-600 mb-8 leading-relaxed">
-                글로벌 수준의 내부 통제 시스템 구축 및 회계 감사를 통해 경영의 투명성과 안정성을 확보합니다.
-              </p>
-              <Link to="/services/audit-internal-control" className="text-[#C5A059] font-bold flex items-center group-hover:underline">
-                자세히 보기 <ArrowRight size={16} className="ml-2" />
-              </Link>
+              <div className="p-8 flex-1 flex flex-col">
+                <div className="w-12 h-12 bg-[#F1F5F9] rounded-lg flex items-center justify-center text-[#1A365D] mb-6 group-hover:bg-[#1A365D] group-hover:text-white transition-colors">
+                  <ShieldCheck size={24} />
+                </div>
+                <h3 className="text-2xl font-bold font-serif-kr text-[#1A365D] mb-4">투명성 및 통제</h3>
+                <p className="text-gray-600 mb-8 leading-relaxed flex-1">
+                  글로벌 수준의 내부 통제 시스템 구축 및 회계 감사를 통해 경영의 투명성과 안정성을 확보합니다.
+                </p>
+                <Link to="/services/audit-internal-control" className="text-[#C5A059] font-bold flex items-center group-hover:underline">
+                  자세히 보기 <ArrowRight size={16} className="ml-2" />
+                </Link>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
       {/* Social Proof Section */}
-      <section className="py-24 bg-[#1A365D] text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="relative py-24 overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <img 
+            src="https://res.cloudinary.com/dj1xp2ojh/image/upload/v1771559770/Image_fx_2_lumjf4.jpg" 
+            alt="Professional Meeting Room" 
+            className="w-full h-full object-cover opacity-20"
+          />
+          <div className="absolute inset-0 bg-[#1A365D]/90"></div>
+        </div>
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-white">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold font-serif-kr mb-8">검증된 전문성, 실질적인 성과</h2>
