@@ -92,7 +92,7 @@ const Contact: React.FC = () => {
                     </div>
                     <div className="flex items-center space-x-3 text-gray-600">
                       <Mail size={20} className="text-[#C5A059]" />
-                      <span>phumseok.park@gmail.com</span>
+                      <span>humseok.park@gmail.com</span>
                     </div>
                     <div className="flex items-start space-x-3 text-gray-600">
                       <MapPin size={20} className="text-[#C5A059] mt-1" />

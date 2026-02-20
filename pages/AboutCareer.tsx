@@ -38,7 +38,7 @@ const AboutCareer: React.FC = () => {
                />
             </div>
             <div className="absolute -bottom-4 -right-4 bg-[#C5A059] text-[#1A365D] p-4 rounded-lg font-bold text-center">
-                대표이사 / 회계사<br />박흠석
+                대표 회계사<br />박흠석
             </div>
           </div>
         </div>

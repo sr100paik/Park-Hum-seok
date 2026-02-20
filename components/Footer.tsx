@@ -38,7 +38,7 @@ const Footer: React.FC = () => {
               <a href="#" className="p-2.5 bg-white/5 rounded-full hover:bg-[#C5A059] hover:text-[#1A365D] transition-all duration-300">
                 <Linkedin size={18} />
               </a>
-              <a href="mailto:phumseok.park@gmail.com" className="p-2.5 bg-white/5 rounded-full hover:bg-[#C5A059] hover:text-[#1A365D] transition-all duration-300">
+              <a href="mailto:humseok.park@gmail.com" className="p-2.5 bg-white/5 rounded-full hover:bg-[#C5A059] hover:text-[#1A365D] transition-all duration-300">
                 <Mail size={18} />
               </a>
             </div>
@@ -93,7 +93,7 @@ const Footer: React.FC = () => {
               </li>
               <li className="flex items-center space-x-4">
                 <Mail size={18} className="text-[#C5A059] shrink-0" />
-                <span className="text-gray-400 text-[14px]">phumseok.park@gmail.com</span>
+                <span className="text-gray-400 text-[14px]">humseok.park@gmail.com</span>
               </li>
             </ul>
           </div>
