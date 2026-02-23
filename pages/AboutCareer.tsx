@@ -92,7 +92,7 @@ const AboutCareer: React.FC = () => {
                         <span className="font-medium text-[#1A365D]">한국공인회계사 (KICPA)</span>
                     </li>
                     <li className="p-4 bg-gray-50 rounded flex justify-between items-center">
-                        <span className="font-medium text-[#1A365D]">세무사 자격 취득</span>
+                        <span className="font-medium text-[#1A365D]">세무사</span>
                     </li>
                   </ul>
                </div>
