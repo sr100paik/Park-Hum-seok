@@ -27,10 +27,10 @@ const Footer: React.FC = () => {
           <div className="col-span-1">
             <Link to="/" className="flex flex-col mb-6">
               <span className="text-2xl font-bold font-serif-kr tracking-tight">박흠석</span>
-              <span className="text-[10px] uppercase tracking-[0.25em] text-[#C5A059] font-semibold mt-1">Strategic Solution Partner</span>
+              <span className="text-[10px] uppercase tracking-[0.25em] text-[#C5A059] font-semibold mt-1">Financial & Accounting Solution Partner</span>
             </Link>
             <p className="text-gray-400 text-sm leading-relaxed mb-8 pr-4">
-              기업의 생로병사(生老病死), 40년의 통찰로 해답을 제시합니다. <br />
+              기업의 생로병사(生老病死), 30년의 통찰로 해답을 제시합니다. <br />
               삼일회계법인 파트너 출신 박흠석 회계사가 제안하는 <br />
               산업 맞춤형 비즈니스 솔루션을 경험하십시오.
             </p>
@@ -38,7 +38,7 @@ const Footer: React.FC = () => {
               <a href="#" className="p-2.5 bg-white/5 rounded-full hover:bg-[#C5A059] hover:text-[#1A365D] transition-all duration-300">
                 <Linkedin size={18} />
               </a>
-              <a href="mailto:humseok.park@gmail.com" className="p-2.5 bg-white/5 rounded-full hover:bg-[#C5A059] hover:text-[#1A365D] transition-all duration-300">
+              <a href="mailto:cecilsean40@gmail.com" className="p-2.5 bg-white/5 rounded-full hover:bg-[#C5A059] hover:text-[#1A365D] transition-all duration-300">
                 <Mail size={18} />
               </a>
             </div>
@@ -48,7 +48,7 @@ const Footer: React.FC = () => {
           <div className="flex flex-col">
             <h4 className="text-[15px] font-bold mb-8 font-serif-kr text-[#C5A059] uppercase tracking-wider">Quick Links</h4>
             <ul className="space-y-5">
-              <li><Link to="/services/deal-strategy" className="text-gray-400 hover:text-white transition-colors text-[14px]">Deal & Strategy</Link></li>
+              <li><Link to="/services/deal-strategy" className="text-gray-400 hover:text-white transition-colors text-[14px]">Strategy & Deal</Link></li>
               <li><Link to="/services/performance-restructuring" className="text-gray-400 hover:text-white transition-colors text-[14px]">Restructuring</Link></li>
               <li><Link to="/services/audit-internal-control" className="text-gray-400 hover:text-white transition-colors text-[14px]">Audit & Compliance</Link></li>
               <li><Link to="/about/career" className="text-gray-400 hover:text-white transition-colors text-[14px]">About Expert</Link></li>
@@ -85,7 +85,7 @@ const Footer: React.FC = () => {
             <ul className="space-y-6">
               <li className="flex items-start space-x-4">
                 <MapPin size={18} className="mt-1 text-[#C5A059] shrink-0" />
-                <span className="text-gray-400 text-[14px] leading-snug">서울특별시 강남구 테헤란로 <br/><span className="text-[12px] text-gray-500">(도영회계법인)</span></span>
+                <span className="text-gray-400 text-[14px] leading-snug">서울특별시 송파구 오름로 11길 7 <br/><span className="text-[12px] text-gray-500">(방이동)</span></span>
               </li>
               <li className="flex items-center space-x-4">
                 <Phone size={18} className="text-[#C5A059] shrink-0" />
@@ -93,14 +93,14 @@ const Footer: React.FC = () => {
               </li>
               <li className="flex items-center space-x-4">
                 <Mail size={18} className="text-[#C5A059] shrink-0" />
-                <span className="text-gray-400 text-[14px]">humseok.park@gmail.com</span>
+                <span className="text-gray-400 text-[14px]">cecilsean40@gmail.com</span>
               </li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-white/10 mt-20 pt-10 flex flex-col md:flex-row justify-between items-center text-[12px] text-gray-500 tracking-wide">
-          <p>© 2024 Park Hum-seok Strategic Solution. All rights reserved.</p>
+          <p>© 2024 Park Hum-seok Financial & Accounting Solution Partner. All rights reserved.</p>
           <div className="flex space-x-8 mt-6 md:mt-0 font-medium">
             <a href="#" className="hover:text-white transition-colors">개인정보처리방침</a>
             <a href="#" className="hover:text-white transition-colors">이용약관</a>

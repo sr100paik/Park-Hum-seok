@@ -37,7 +37,7 @@ const Restructuring: React.FC = () => {
               </div>
               <h3 className="text-2xl font-bold font-serif-kr text-[#1A365D]">지배구조 및 사업구조 개편</h3>
               <p className="text-gray-600 leading-relaxed">
-                N그룹, I그룹 등 주요 그룹사의 지배구조 개선 및 물류 사업 개편 자문을 수행하였습니다. 
+                주요 그룹사의 지배구조 개선 및 물류 사업 개편 자문을 수행하였습니다. 
                 법규 준수를 넘어 경영 효율을 극대화할 수 있는 최적의 구조를 제안합니다.
               </p>
             </div>
@@ -48,7 +48,7 @@ const Restructuring: React.FC = () => {
               </div>
               <h3 className="text-2xl font-bold font-serif-kr text-[#1A365D]">글로벌 경영 관리 체계</h3>
               <p className="text-gray-600 leading-relaxed">
-                삼성전자, LG전자 등 글로벌 기업의 해외법인 관리 프로세스 개선 및 ERP 구축 프로젝트를 성공적으로 이끌었습니다. 
+                국내 유수의 전자회사 글로벌 기업의 해외법인 관리 프로세스 개선 및 ERP 구축 프로젝트를 성공적으로 이끌었습니다. 
                 글로벌 시장에서의 가시성과 통제력을 확보하십시오.
               </p>
             </div>

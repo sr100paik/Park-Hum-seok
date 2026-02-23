@@ -92,11 +92,11 @@ const Contact: React.FC = () => {
                     </div>
                     <div className="flex items-center space-x-3 text-gray-600">
                       <Mail size={20} className="text-[#C5A059]" />
-                      <span>humseok.park@gmail.com</span>
+                      <span>cecilsean40@gmail.com</span>
                     </div>
                     <div className="flex items-start space-x-3 text-gray-600">
                       <MapPin size={20} className="text-[#C5A059] mt-1" />
-                      <span>서울특별시 강남구 테헤란로 (도영회계법인)</span>
+                      <span>서울특별시 송파구 오름로 11길 7 (방이동)</span>
                     </div>
                   </div>
                 </div>

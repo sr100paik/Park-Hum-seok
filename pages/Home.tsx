@@ -21,7 +21,7 @@ const Home: React.FC = () => {
           <div className="max-w-3xl animate-in fade-in slide-in-from-left-8 duration-1000">
             <h1 className="text-4xl md:text-6xl font-bold font-serif-kr text-white leading-tight mb-6">
               기업의 <span className="text-[#C5A059]">생로병사(生老病死)</span>,<br />
-              40년의 통찰로<br />
+              30년의 통찰로<br />
               해답을 제시합니다.
             </h1>
             <p className="text-xl text-gray-200 mb-10 leading-relaxed font-light">
@@ -73,18 +73,18 @@ const Home: React.FC = () => {
             <div className="bg-[#F7FAFC] p-8 md:p-12 rounded-2xl border border-gray-100 shadow-sm relative overflow-hidden">
                <div className="absolute top-0 right-0 w-32 h-32 bg-[#C5A059]/10 rounded-full -mr-16 -mt-16"></div>
                <span className="text-[#1A365D] font-bold tracking-widest uppercase mb-4 block">Our Solution</span>
-               <h3 className="text-2xl font-bold font-serif-kr text-[#1A365D] mb-6">40년 경력의 통합 솔루션</h3>
+               <h3 className="text-2xl font-bold font-serif-kr text-[#1A365D] mb-6">30년 경력의 통합 솔루션</h3>
                <p className="text-gray-600 mb-8 leading-relaxed">
                  박흠석 전문가는 삼일회계법인 파트너로서 쌓아온 방대한 네트워크와 실무 경험을 바탕으로, 
                  기업의 현재를 진단하고 미래를 위한 가장 현실적이고 강력한 로드맵을 제공합니다.
                </p>
                <div className="grid grid-cols-2 gap-4">
                   <div className="p-4 bg-white rounded shadow-sm">
-                    <div className="text-2xl font-bold text-[#1A365D]">40+</div>
+                    <div className="text-2xl font-bold text-[#1A365D]">30+</div>
                     <div className="text-sm text-gray-500">Years of Experience</div>
                   </div>
                   <div className="p-4 bg-white rounded shadow-sm">
-                    <div className="text-2xl font-bold text-[#1A365D]">100+</div>
+                    <div className="text-2xl font-bold text-[#1A365D]">200+</div>
                     <div className="text-sm text-gray-500">Corporates Advised</div>
                   </div>
                </div>
@@ -190,14 +190,14 @@ const Home: React.FC = () => {
               <h2 className="text-3xl md:text-4xl font-bold font-serif-kr mb-8">검증된 전문성, 실질적인 성과</h2>
               <div className="space-y-8">
                 <div className="flex items-start space-x-6">
-                  <div className="text-4xl font-bold text-[#C5A059]">40+</div>
+                  <div className="text-4xl font-bold text-[#C5A059]">30+</div>
                   <div>
                     <h4 className="text-xl font-bold mb-1">Career Journey</h4>
-                    <p className="text-gray-400">삼일회계법인 파트너 경력 및 40년 이상의 회계/자문 외길</p>
+                    <p className="text-gray-400">삼일회계법인 파트너 경력 및 30년 이상의 회계/자문 외길</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-6">
-                  <div className="text-4xl font-bold text-[#C5A059]">100+</div>
+                  <div className="text-4xl font-bold text-[#C5A059]">200+</div>
                   <div>
                     <h4 className="text-xl font-bold mb-1">Global Clients</h4>
                     <p className="text-gray-400">국내외 주요 대기업 및 그룹사의 복잡한 이슈 해결 수행</p>

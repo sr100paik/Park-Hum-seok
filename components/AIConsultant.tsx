@@ -37,7 +37,7 @@ const AIConsultant: React.FC = () => {
         model: 'gemini-3-flash-preview',
         contents: userMessage,
         config: {
-          systemInstruction: `당신은 40년 경력의 회계 전문가 '박흠석'의 전문 AI 어시스턴트입니다. 
+          systemInstruction: `당신은 30년 경력의 회계 전문가 '박흠석'의 전문 AI 어시스턴트입니다. 
           주요 전문 분야는 M&A 실사, 사업 전략 수립, 지배구조 개편, 내부회계관리제도 구축입니다.
           공손하고 전문적인 어조(Professional & Formal)를 유지하세요. 
           상담 신청이 필요해 보이면 "전문가와의 직접 상담을 신청해 보세요"라고 안내하세요.`,

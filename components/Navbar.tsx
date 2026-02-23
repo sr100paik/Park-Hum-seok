@@ -41,7 +41,7 @@ const Navbar: React.FC = () => {
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="flex flex-col gap-1 group">
             <span className={`text-2xl font-bold font-serif-kr transition-colors ${scrolled ? 'text-[#1A365D]' : 'text-white md:text-[#1A365D]'}`}>박흠석</span>
-            <span className={`text-[9px] uppercase tracking-[0.15em] font-medium transition-colors ${scrolled ? 'text-[#C5A059]' : 'text-white/80 md:text-[#C5A059]'}`}>Strategic Solution Partner</span>
+            <span className={`text-[9px] uppercase tracking-[0.15em] font-medium transition-colors ${scrolled ? 'text-[#C5A059]' : 'text-white/80 md:text-[#C5A059]'}`}>Financial & Accounting Solution Partner</span>
           </Link>
 
           {/* Desktop Nav */}
