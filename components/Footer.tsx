@@ -6,10 +6,10 @@ import { Mail, Phone, MapPin, Linkedin, ExternalLink } from 'lucide-react';
 const Footer: React.FC = () => {
   const partners = [
     { name: '파트너 선택', url: '#' },
-    { name: '백프로 인사이트 파트너', url: 'https://bizfromatoz.com' },
-    { name: 'Pro OH 컨설팅 파트너', url: '#' },
-    { name: '법률 서비스 파트너', url: '#' },
-    { name: '세무회계 서비스 파트너', url: '#' },
+    { name: '경영전략 서비스 파트너', url: 'https://bizfromatoz.com' },
+    { name: '벤처자문 서비스 파트너', url: '#' },
+    { name: '법률자문 서비스 파트너', url: '#' },
+    { name: '재무자문 서비스 파트너', url: 'https://park-hum-seok.vercel.app/' },
   ];
 
   const handlePartnerChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
